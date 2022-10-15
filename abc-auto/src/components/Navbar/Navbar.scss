@@ -1,0 +1,97 @@
+
+.navbar {
+    width:100vw;
+    height:190px;
+    margin:auto;
+    &_top {
+        padding:0px 250px;
+        width:100%;
+        height:50px;
+        background: #EFF0F0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_time {
+            width:50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            & p {
+                margin-left:20px;
+                width:fit-content;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color:#737373;
+                font-style: normal;
+                font-size: 14px;
+                line-height: 16px;
+                font-weight: 400;
+                position: relative;
+                & span {
+                    width:16px;
+                    height:16px;
+                    position: absolute;
+                    left:-20px;
+                    top:0;
+                    img {
+                        width:100%;
+                        height:100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        &_link {
+            display: flex;
+            align-items: center;
+            width:fit-content;
+            height:20px;
+            font-style: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-decoration-line: underline;
+            color: #737373;
+            font-weight: 400;
+            position: relative;
+            & span {
+                position: absolute;
+                left:-25px;
+                top:0px;
+                & img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+    &_container {
+        width:100;
+        padding: 0 250px;
+        &_main {
+            width:100%;
+            height:100px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            &_logo {
+                width:200px;
+                height:60px;
+                border-right:5px solid red; 
+                border-width: 100px;
+                & a {
+                    width:100%;
+                    height:100%;
+                } 
+            }
+        }
+               
+    }
+}
+  
+           
+                 
+      
+
+
+
